@@ -1,0 +1,72 @@
+body{
+    background-image: url('../img/fondo3.jpg');
+    background-size: cover;
+}
+header{
+    text-align: right;
+}
+.custom-nav .nav-link{
+    font-size:25px;
+    color: white;
+}
+
+.carousel-item img {
+    height: 400px;
+    object-fit: cover;
+}
+.carousel {
+    width: 80%;
+    margin: 0 auto;
+}
+.welcome-text {
+    font-size: 3rem;
+    font-family: 'Dancing Script', cursive;
+    margin: 10px 0;
+    color: #333;
+}
+.container{
+    max-width: 100%;
+    padding: 15px;
+    margin: 0 auto;
+}
+.form-container {
+    color: white;
+}
+footer{
+    background-color: rgb(208, 255, 0);
+    padding: 10px;
+    text-align: center;
+}
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.footer-icons a{
+    text-decoration: none;
+}
+.footer-icons a img{
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s;
+}
+.footer-icons a img:hover{
+    transform: scale(1.2);
+}
+.lista {
+    text-align: left;
+}
+.texto{
+    color: white;
+}
+.texto2{
+    color: white;
+    font-size: 20px;
+}
+.card-img-top{
+    height: 250px;
+    width: 100px;
+}
